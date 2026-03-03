@@ -1,0 +1,38 @@
+{
+  "title": "AI 快讯 · Twitter",
+  "date": "2026-03-03T00:13:14.607504Z",
+  "topics": [
+    {
+      "topic_id": "agentic-focus",
+      "headline": "Agentic Focus",
+      "bullets": [
+        {
+          "text": "Warp 终端支持将 “Agent” 设为新标签页默认模式，允许通过自然语言或 Shell 命令直接交互。建议开发者在处理复杂多步指令时启用该模式以降低记忆负担，但在执行高危生产环境操作前需人工核验 Agent 生成的指令。",
+          "url": "https://x.com/warpdotdev/status/2028610134566461682"
+        },
+        {
+          "text": "OpenPackage 针对 Coding Agent 配置推出了专用包管理器，旨在标准化 Agent 的分发与管理。工程师可利用其统一管理提示词、工具集及环境配置，提升 Agent 能力在不同项目间的复用性，需关注其与现有 Agent 框架的集成进度。",
+          "url": "https://x.com/tom_doerr/status/2028608334878695734"
+        },
+        {
+          "text": "Scalar 实现了从 OpenAPI 文件自动生成交互式文档及多语言 API 客户端的能力。推荐在 API 优先的开发流程中使用 Scalar 替代传统 Swagger UI，以自动化同步前后端调用逻辑，但需确保 OpenAPI Schema 定义的完整性。",
+          "url": "https://x.com/tom_doerr/status/2028593024700207280"
+        }
+      ]
+    },
+    {
+      "topic_id": "cluster-0",
+      "headline": "探索基于 Transformer 的 3D 场景重建与 Google Photos 自动化管理工具",
+      "bullets": [
+        {
+          "text": "IGGT_official 实现了基于 Transformer 的图像 3D 场景重建能力。建议开发者参考其开源实现进行 3D 视觉任务的工程化评估，重点关注模型在复杂场景下的重建精度。需注意 Transformer 架构在处理高分辨率图像时的显存占用与推理延迟。",
+          "url": "https://x.com/tom_doerr/status/2028623682600374411"
+        },
+        {
+          "text": "Google-Photos-Toolkit 提供了通过 Web API 自动化过滤与整理媒体文件的 Userscript。适用于需要批量管理 Google Photos 媒体流的场景，可直接集成至浏览器脚本管理器。使用时需遵循 Google Photos API 的调用频率限制，并确保脚本运行环境的安全性。",
+          "url": "https://x.com/tom_doerr/status/2028581528582643849"
+        }
+      ]
+    }
+  ]
+}
