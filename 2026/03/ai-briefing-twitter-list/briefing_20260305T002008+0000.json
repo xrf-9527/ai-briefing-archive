@@ -1,0 +1,46 @@
+{
+  "title": "AI 快讯 · Twitter",
+  "date": "2026-03-05T00:20:08.398417Z",
+  "topics": [
+    {
+      "topic_id": "agentic-focus",
+      "headline": "Agentic Focus",
+      "bullets": [
+        {
+          "text": "Chrome 官方发布 MCP server，支持 AI Agent 通过 DevTools 协议深度控制与检查浏览器；建议集成 ChromeDevTools/chrome-devtools-mcp 以实现自动化的 UI 调试、性能分析及动态抓取；需注意浏览器环境的安全隔离。",
+          "url": "https://x.com/tom_doerr/status/2029282948835373279"
+        },
+        {
+          "text": "通过 claude-subconscious 为 Claude Code 引入持久化记忆层；建议在处理跨 Session 的复杂工程任务时部署 letta-ai/claude-subconscious 以保持上下文连贯；需关注记忆检索的准确性及存储成本。",
+          "url": "https://x.com/tom_doerr/status/2029279123961422202"
+        },
+        {
+          "text": "Cline 集成 ComfyUI MCP，支持在 IDE 内通过自然语言构建生成式 AI 工作流；建议利用该工具将视觉生成任务直接嵌入开发环境，通过 MCP 协议桥接代码与多模态执行；需预先配置 ComfyUI 后端环境。",
+          "url": "https://x.com/cline/status/2029307942592496002"
+        },
+        {
+          "text": "Claude Code 推出 HTTP hooks 替代传统 command hooks → 建议通过标准 HTTP 接口集成自定义扩展，以提升 AI 代理在复杂系统中的安全性与集成效率 → 需关注接口鉴权机制与响应延迟。",
+          "url": "https://x.com/bcherny/status/2029339111212126458"
+        }
+      ]
+    },
+    {
+      "topic_id": "cluster-0",
+      "headline": "【Strategic/Risk】推荐三款提升数据库调优、实时监控与情报分析效率的开源可视化工具",
+      "bullets": [
+        {
+          "text": "利用 dalibo/pev2 可视化 PostgreSQL 执行计划，通过图形化界面快速识别慢查询瓶颈。建议将 EXPLAIN (ANALYZE, FORMAT JSON) 的结果导入工具进行深度剖析。注意该工具仅用于分析，不提供自动优化建议。",
+          "url": "https://x.com/tom_doerr/status/2029340322912768279"
+        },
+        {
+          "text": "采用 NASA 开源的 Open MCT 框架构建任务控制级遥测数据监控系统。适用于处理复杂实时数据流，建议通过其插件化架构集成自定义数据源。需注意其学习曲线较陡，适合大型监控项目。",
+          "url": "https://x.com/tom_doerr/status/2029317375841960262"
+        },
+        {
+          "text": "部署 watchtower 终端仪表盘，在 CLI 环境中实现全球情报的聚合监控。建议通过配置文件定义监控源，以提升情报获取效率。需注意终端显示限制，不适合展示过于复杂的图表。",
+          "url": "https://x.com/tom_doerr/status/2029325027968008639"
+        }
+      ]
+    }
+  ]
+}
