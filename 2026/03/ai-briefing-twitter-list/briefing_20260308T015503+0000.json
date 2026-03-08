@@ -1,0 +1,24 @@
+{
+  "title": "AI 快讯 · Twitter",
+  "date": "2026-03-08T01:55:03.015352Z",
+  "topics": [
+    {
+      "topic_id": "cluster-2",
+      "headline": "【Strategic/Risk】AI Agent 基础设施升级：实现自动化知识闭环、移动端 VLM 驱动与持久化内存",
+      "bullets": [
+        {
+          "text": "coworkpowers 插件为 Claude Code 引入自动化研究与反馈闭环，显著提升知识密集型任务的执行效率；建议在复杂调研场景中集成该插件以实现自主信息检索与验证；需注意其对 Claude 生态的特定依赖。",
+          "url": "https://github.com/nabeelhyatt/coworkpowers"
+        },
+        {
+          "text": "PhoneDriver 利用视觉语言模型（VLM）实现移动端界面自动化驱动，为 UI 测试和移动端 Agent 提供了新路径；开发者可将其用于模拟复杂的人机交互流程；需关注 VLM 在高频交互下的推理延迟。",
+          "url": "https://github.com/OminousIndustries/PhoneDriver"
+        },
+        {
+          "text": "Google 发布 Always-On Memory Agent 为 AI 提供持久化内存支持，解决了长周期任务中的上下文丢失痛点；建议在构建需要跨会话记忆的复杂代理系统时参考其架构设计；需关注其在不同模型生态下的兼容性。",
+          "url": "https://x.com/hasantoxr/status/2030035335259025503"
+        }
+      ]
+    }
+  ]
+}
