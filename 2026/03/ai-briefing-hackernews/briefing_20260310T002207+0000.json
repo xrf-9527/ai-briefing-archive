@@ -1,0 +1,24 @@
+{
+  "title": "AI 快讯 · Hacker News",
+  "date": "2026-03-10T00:22:07.266076Z",
+  "topics": [
+    {
+      "topic_id": "cluster-0",
+      "headline": "【Strategic/Risk】优化 AI Agent 开发环境与基础设施时间同步稳定性",
+      "bullets": [
+        {
+          "text": "Terminal Use (YC W26) 提供沙盒化文件系统环境，支持 Claude Agent SDK 和 Codex SDK；建议用于部署具备文件操作能力的 Agent，以实现安全的自动化编码。",
+          "url": "https://news.ycombinator.com/item?id=47311657"
+        },
+        {
+          "text": "Mog 编程语言规范仅 3,200 tokens 且支持静态类型，专为 LLM 生成优化；建议在受限上下文窗口中生成嵌入式代码，以减少幻觉并提升编译成功率。",
+          "url": "https://moglang.org/"
+        },
+        {
+          "text": "2026 年 6 月底确认不引入闰秒；基础设施团队可保持现有 NTP/PTP 配置，无需为该时段准备闰秒处理预案，确保调度系统稳定性。",
+          "url": "https://lists.iana.org/hyperkitty/list/tz@iana.org/thread/P6D36VZSZBUSSTSMZKFXKF4T4IXWN23P/"
+        }
+      ]
+    }
+  ]
+}
