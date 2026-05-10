@@ -1,0 +1,16 @@
+{
+  "title": "AI 快讯 · Twitter",
+  "date": "2026-05-10T00:16:52.659892Z",
+  "topics": [
+    {
+      "topic_id": "cluster-1",
+      "headline": "利用 /goal 指令集实现 Agent 任务的全生命周期管理",
+      "bullets": [
+        {
+          "text": "新增 /goal 指令支持 set、view、pause、resume 及 clear 操作 → 建议在 Agent 交互界面集成该指令集，通过 set 初始化目标并利用 pause/resume 处理长时任务的中断与恢复 → 需确保状态同步逻辑覆盖所有操作指令以维持任务一致性。",
+          "url": "https://x.com/dongxi_nlp/status/2053240081150800257"
+        }
+      ]
+    }
+  ]
+}
