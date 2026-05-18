@@ -1,0 +1,38 @@
+{
+  "title": "AI 快讯 · Hacker News",
+  "date": "2026-05-18T01:48:45.431733Z",
+  "topics": [
+    {
+      "topic_id": "agentic-focus",
+      "headline": "Agentic Focus",
+      "bullets": [
+        {
+          "text": "Semble 结合 potion-code-16M 与 BM25 算法，使 Token 消耗比 grep 减少 98% 且检索速度大幅领先；建议在 Agentic Coding 流程中集成以降低 LLM 调用成本，注意评估其在复杂逻辑检索下的准确率。",
+          "url": "https://github.com/MinishLab/semble"
+        },
+        {
+          "text": "研究发现通过错误配置 Infinity Fabric 可破解 AMD SEV-SNP 安全特性；建议云服务商与安全架构师自查硬件互联配置，防止 Fabricked 攻击破坏可信计算环境的完整性。",
+          "url": "https://xca-attacks.github.io/fabricked/"
+        },
+        {
+          "text": "ShurikenTrade 提供了带安全护栏的 Agentic Trading 技能库；开发者可利用该库快速构建具备风险控制能力的交易智能体，需根据具体交易对的流动性自定义护栏逻辑。",
+          "url": "https://github.com/ShurikenTrade/shuriken-skills"
+        }
+      ]
+    },
+    {
+      "topic_id": "cluster-1",
+      "headline": "【Strategic/Risk】掌握电网可视化工具应用与分布式能源基础设施战略调整",
+      "bullets": [
+        {
+          "text": "利用 grid2poster 开源项目实现国家级电网数据的可视化设计 → 建议通过该 GitHub 库快速生成专业电网海报，辅助工程汇报与数据分析 → 需确保输入数据符合项目定义的拓扑结构要求。",
+          "url": "https://github.com/open-energy-transition/grid2poster"
+        },
+        {
+          "text": "Tesla Solar Roof 业务重心转向传统太阳能电池板 → 建议在住宅能源系统设计中重新评估传统组件的选型优先级，以应对行业巨头的技术路线调整 → 需注意集成式方案可能面临的供应链收缩风险。",
+          "url": "https://electrek.co/2026/05/14/tesla-solar-roof-promise-vs-reality-pivot-panels/"
+        }
+      ]
+    }
+  ]
+}
